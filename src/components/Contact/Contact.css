@@ -12,16 +12,27 @@
     justify-content: center;
     position: relative;
     flex: 1;
+    padding-bottom: 70px;
 }
 
 .c-right>form
 {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
     
 }
+/* #n-name,#e-mail{
+    padding-right: 10px;
+} */
+#name{
+    padding-left: 69px;
+}
+/* #email{
+    padding-left: 49px;
+} */
+
 
 .c-right .user{
     width: 20rem;
@@ -30,17 +41,39 @@
     outline: none;
     border: 2px solid var(--orange);
     border-radius: 8px;
-    font-size: 16px;   
+    font-size: 18px;   
 }
 
 textarea{
-    height: 4rem!important;
+    height: 3rem!important;
 }
 
 .c-blur1{
     top: 1rem;
     left: 8rem;
 }
+.button {
+    width: 4rem;
+    height: 2rem;
+    margin-top: 0.3rem;
+    text-align: center;
+  }
+.button > *:hover {
+    cursor: pointer;
+  }
+ /* #n-name,#e-mail{
+    width: 42px;
+    padding-left: 8px;
+  }
+  #n-level{
+    padding-right: 340px;
+  }
+  #n-input{
+    padding-top: 10px;
+  }
+  #name{
+    padding-top: 10px;
+  } */
 
 @media screen and (max-width: 480px) {
     .contact-form{
